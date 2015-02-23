@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76BEC79C1A92C9AC000BF339 /* ProcessDataUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76DD28031A91905E007D865A /* ProcessDataUtil.h */; };
+		76BEC81B1A92E4B3000BF339 /* DataField.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7A61A92E4B3000BF339 /* DataField.m */; };
+		76BEC81C1A92E4B3000BF339 /* DTOACCCONTACTProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7A81A92E4B3000BF339 /* DTOACCCONTACTProcess.m */; };
+		76BEC81D1A92E4B3000BF339 /* DTOACCOUNTLEADProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7AA1A92E4B3000BF339 /* DTOACCOUNTLEADProcess.m */; };
+		76BEC81E1A92E4B3000BF339 /* DTOACCOUNTProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7AC1A92E4B3000BF339 /* DTOACCOUNTProcess.m */; };
+		76BEC81F1A92E4B3000BF339 /* DTOATTACHMENTProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7AE1A92E4B3000BF339 /* DTOATTACHMENTProcess.m */; };
+		76BEC8201A92E4B3000BF339 /* DTOCOMPETITORProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7B01A92E4B3000BF339 /* DTOCOMPETITORProcess.m */; };
+		76BEC8211A92E4B3000BF339 /* DTOComplainProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7B21A92E4B3000BF339 /* DTOComplainProcess.m */; };
+		76BEC8221A92E4B3000BF339 /* DTOCONTACTProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7B41A92E4B3000BF339 /* DTOCONTACTProcess.m */; };
+		76BEC8231A92E4B3000BF339 /* DTOEMPLOYEEACCOUNTProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7B61A92E4B3000BF339 /* DTOEMPLOYEEACCOUNTProcess.m */; };
+		76BEC8241A92E4B3000BF339 /* DTOFLLOWUPProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7B81A92E4B3000BF339 /* DTOFLLOWUPProcess.m */; };
+		76BEC8251A92E4B3000BF339 /* DTOINVENTORYProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7BA1A92E4B3000BF339 /* DTOINVENTORYProcess.m */; };
+		76BEC8261A92E4B3000BF339 /* DTONOTEProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7BC1A92E4B3000BF339 /* DTONOTEProcess.m */; };
+		76BEC8271A92E4B3000BF339 /* DTOOPPORTUNITYCONTACTProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7BE1A92E4B3000BF339 /* DTOOPPORTUNITYCONTACTProcess.m */; };
+		76BEC8281A92E4B3000BF339 /* DTOOPPORTUNITYProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7C01A92E4B3000BF339 /* DTOOPPORTUNITYProcess.m */; };
+		76BEC8291A92E4B3000BF339 /* DTOOPPORTUNITYPRODUCTProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7C21A92E4B3000BF339 /* DTOOPPORTUNITYPRODUCTProcess.m */; };
+		76BEC82A1A92E4B3000BF339 /* DTOProBaoLanhDetailProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7C41A92E4B3000BF339 /* DTOProBaoLanhDetailProcess.m */; };
+		76BEC82B1A92E4B3000BF339 /* DTOProBPDetailProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7C61A92E4B3000BF339 /* DTOProBPDetailProcess.m */; };
+		76BEC82C1A92E4B3000BF339 /* DTOPRODUCTDETAILProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7C81A92E4B3000BF339 /* DTOPRODUCTDETAILProcess.m */; };
+		76BEC82D1A92E4B3000BF339 /* DTOPRODUCTMASTERProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7CA1A92E4B3000BF339 /* DTOPRODUCTMASTERProcess.m */; };
+		76BEC82E1A92E4B3000BF339 /* DTOPRODUCTTYPEProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7CC1A92E4B3000BF339 /* DTOPRODUCTTYPEProcess.m */; };
+		76BEC82F1A92E4B3000BF339 /* DTOProEMBDetailProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7CE1A92E4B3000BF339 /* DTOProEMBDetailProcess.m */; };
+		76BEC8301A92E4B3000BF339 /* DTOProThanhToanDetailProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7D01A92E4B3000BF339 /* DTOProThanhToanDetailProcess.m */; };
+		76BEC8311A92E4B3000BF339 /* DTOProTietKiemDetailProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7D21A92E4B3000BF339 /* DTOProTietKiemDetailProcess.m */; };
+		76BEC8321A92E4B3000BF339 /* DTOProTindungDetailProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7D41A92E4B3000BF339 /* DTOProTindungDetailProcess.m */; };
+		76BEC8331A92E4B3000BF339 /* DTOProTTQTDetailProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7D61A92E4B3000BF339 /* DTOProTTQTDetailProcess.m */; };
+		76BEC8341A92E4B3000BF339 /* DTOProWay4DetailProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7D81A92E4B3000BF339 /* DTOProWay4DetailProcess.m */; };
+		76BEC8351A92E4B3000BF339 /* DTOSYSCATProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7DA1A92E4B3000BF339 /* DTOSYSCATProcess.m */; };
+		76BEC8361A92E4B3000BF339 /* DTOTASKProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7DC1A92E4B3000BF339 /* DTOTASKProcess.m */; };
+		76BEC8371A92E4B3000BF339 /* DTOWidgetProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7DE1A92E4B3000BF339 /* DTOWidgetProcess.m */; };
+		76BEC8381A92E4B3000BF339 /* DTOWidgetTypeProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7E01A92E4B3000BF339 /* DTOWidgetTypeProcess.m */; };
+		76BEC8391A92E4B3000BF339 /* TableTestProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7E21A92E4B3000BF339 /* TableTestProcess.m */; };
+		76BEC83A1A92E4B3000BF339 /* Items.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7E51A92E4B3000BF339 /* Items.m */; };
+		76BEC83B1A92E4B3000BF339 /* StringRemoval.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7E81A92E4B3000BF339 /* StringRemoval.m */; };
+		76BEC83C1A92E4B3000BF339 /* UICGPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7EA1A92E4B3000BF339 /* UICGPolyline.m */; };
+		76BEC83D1A92E4B3000BF339 /* UICGRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7EC1A92E4B3000BF339 /* UICGRoute.m */; };
+		76BEC83E1A92E4B3000BF339 /* UICGStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7EE1A92E4B3000BF339 /* UICGStep.m */; };
+		76BEC83F1A92E4B3000BF339 /* NSDictionary+QS.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7F01A92E4B3000BF339 /* NSDictionary+QS.m */; };
+		76BEC8401A92E4B3000BF339 /* DTOAccountProcessObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7F31A92E4B3000BF339 /* DTOAccountProcessObject.m */; };
+		76BEC8411A92E4B3000BF339 /* DTOAcountLeadProcessObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7F51A92E4B3000BF339 /* DTOAcountLeadProcessObject.m */; };
+		76BEC8421A92E4B3000BF339 /* DTOComplainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7F71A92E4B3000BF339 /* DTOComplainObject.m */; };
+		76BEC8431A92E4B3000BF339 /* DTOProBaoLanhDetailObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7F91A92E4B3000BF339 /* DTOProBaoLanhDetailObject.m */; };
+		76BEC8441A92E4B3000BF339 /* DTOProBPDetailObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7FB1A92E4B3000BF339 /* DTOProBPDetailObject.m */; };
+		76BEC8451A92E4B3000BF339 /* DTOProductDetailObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7FD1A92E4B3000BF339 /* DTOProductDetailObject.m */; };
+		76BEC8461A92E4B3000BF339 /* DTOProductLeadTypeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC7FF1A92E4B3000BF339 /* DTOProductLeadTypeObject.m */; };
+		76BEC8471A92E4B3000BF339 /* DTOProductMasterObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC8011A92E4B3000BF339 /* DTOProductMasterObject.m */; };
+		76BEC8481A92E4B3000BF339 /* DTOProEMBDetailObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC8031A92E4B3000BF339 /* DTOProEMBDetailObject.m */; };
+		76BEC8491A92E4B3000BF339 /* DTOProThanhToanDetailObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC8051A92E4B3000BF339 /* DTOProThanhToanDetailObject.m */; };
+		76BEC84A1A92E4B3000BF339 /* DTOProTietKiemDetailObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC8071A92E4B3000BF339 /* DTOProTietKiemDetailObject.m */; };
+		76BEC84B1A92E4B3000BF339 /* DTOProTindungDetailObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC8091A92E4B3000BF339 /* DTOProTindungDetailObject.m */; };
+		76BEC84C1A92E4B3000BF339 /* DTOProTTQTDetailObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC80B1A92E4B3000BF339 /* DTOProTTQTDetailObject.m */; };
+		76BEC84D1A92E4B3000BF339 /* DTOProWay4DetailObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC80D1A92E4B3000BF339 /* DTOProWay4DetailObject.m */; };
+		76BEC84E1A92E4B3000BF339 /* DTOTaskObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC80F1A92E4B3000BF339 /* DTOTaskObject.m */; };
+		76BEC84F1A92E4B3000BF339 /* DTOWidgetObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC8111A92E4B3000BF339 /* DTOWidgetObject.m */; };
+		76BEC8501A92E4B3000BF339 /* DTOWidgetTypeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC8131A92E4B3000BF339 /* DTOWidgetTypeObject.m */; };
+		76BEC8511A92E4B3000BF339 /* BaseDataProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC8161A92E4B3000BF339 /* BaseDataProcess.m */; };
+		76BEC8521A92E4B3000BF339 /* DataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC8181A92E4B3000BF339 /* DataUtil.m */; };
+		76BEC8531A92E4B3000BF339 /* OrderByObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC81A1A92E4B3000BF339 /* OrderByObject.m */; };
+		76BEC8541A92E639000BF339 /* DataField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7A51A92E4B3000BF339 /* DataField.h */; };
+		76BEC8551A92E639000BF339 /* DTOACCCONTACTProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7A71A92E4B3000BF339 /* DTOACCCONTACTProcess.h */; };
+		76BEC8561A92E639000BF339 /* DTOACCOUNTLEADProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7A91A92E4B3000BF339 /* DTOACCOUNTLEADProcess.h */; };
+		76BEC8571A92E639000BF339 /* DTOACCOUNTProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7AB1A92E4B3000BF339 /* DTOACCOUNTProcess.h */; };
+		76BEC8581A92E639000BF339 /* DTOATTACHMENTProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7AD1A92E4B3000BF339 /* DTOATTACHMENTProcess.h */; };
+		76BEC8591A92E639000BF339 /* DTOCOMPETITORProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7AF1A92E4B3000BF339 /* DTOCOMPETITORProcess.h */; };
+		76BEC85A1A92E639000BF339 /* DTOComplainProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7B11A92E4B3000BF339 /* DTOComplainProcess.h */; };
+		76BEC85B1A92E639000BF339 /* DTOCONTACTProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7B31A92E4B3000BF339 /* DTOCONTACTProcess.h */; };
+		76BEC85C1A92E639000BF339 /* DTOEMPLOYEEACCOUNTProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7B51A92E4B3000BF339 /* DTOEMPLOYEEACCOUNTProcess.h */; };
+		76BEC85D1A92E639000BF339 /* DTOFLLOWUPProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7B71A92E4B3000BF339 /* DTOFLLOWUPProcess.h */; };
+		76BEC85E1A92E639000BF339 /* DTOINVENTORYProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7B91A92E4B3000BF339 /* DTOINVENTORYProcess.h */; };
+		76BEC85F1A92E639000BF339 /* DTONOTEProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7BB1A92E4B3000BF339 /* DTONOTEProcess.h */; };
+		76BEC8601A92E639000BF339 /* DTOOPPORTUNITYCONTACTProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7BD1A92E4B3000BF339 /* DTOOPPORTUNITYCONTACTProcess.h */; };
+		76BEC8611A92E639000BF339 /* DTOOPPORTUNITYProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7BF1A92E4B3000BF339 /* DTOOPPORTUNITYProcess.h */; };
+		76BEC8621A92E639000BF339 /* DTOOPPORTUNITYPRODUCTProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7C11A92E4B3000BF339 /* DTOOPPORTUNITYPRODUCTProcess.h */; };
+		76BEC8631A92E639000BF339 /* DTOProBaoLanhDetailProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7C31A92E4B3000BF339 /* DTOProBaoLanhDetailProcess.h */; };
+		76BEC8641A92E639000BF339 /* DTOProBPDetailProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7C51A92E4B3000BF339 /* DTOProBPDetailProcess.h */; };
+		76BEC8651A92E639000BF339 /* DTOPRODUCTDETAILProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7C71A92E4B3000BF339 /* DTOPRODUCTDETAILProcess.h */; };
+		76BEC8661A92E639000BF339 /* DTOPRODUCTMASTERProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7C91A92E4B3000BF339 /* DTOPRODUCTMASTERProcess.h */; };
+		76BEC8671A92E639000BF339 /* DTOPRODUCTTYPEProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7CB1A92E4B3000BF339 /* DTOPRODUCTTYPEProcess.h */; };
+		76BEC8681A92E639000BF339 /* DTOProEMBDetailProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7CD1A92E4B3000BF339 /* DTOProEMBDetailProcess.h */; };
+		76BEC8691A92E639000BF339 /* DTOProThanhToanDetailProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7CF1A92E4B3000BF339 /* DTOProThanhToanDetailProcess.h */; };
+		76BEC86A1A92E639000BF339 /* DTOProTietKiemDetailProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7D11A92E4B3000BF339 /* DTOProTietKiemDetailProcess.h */; };
+		76BEC86B1A92E639000BF339 /* DTOProTindungDetailProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7D31A92E4B3000BF339 /* DTOProTindungDetailProcess.h */; };
+		76BEC86C1A92E639000BF339 /* DTOProTTQTDetailProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7D51A92E4B3000BF339 /* DTOProTTQTDetailProcess.h */; };
+		76BEC86D1A92E639000BF339 /* DTOProWay4DetailProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7D71A92E4B3000BF339 /* DTOProWay4DetailProcess.h */; };
+		76BEC86E1A92E639000BF339 /* DTOSYSCATProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7D91A92E4B3000BF339 /* DTOSYSCATProcess.h */; };
+		76BEC86F1A92E639000BF339 /* DTOTASKProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7DB1A92E4B3000BF339 /* DTOTASKProcess.h */; };
+		76BEC8701A92E639000BF339 /* DTOWidgetProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7DD1A92E4B3000BF339 /* DTOWidgetProcess.h */; };
+		76BEC8711A92E639000BF339 /* DTOWidgetTypeProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7DF1A92E4B3000BF339 /* DTOWidgetTypeProcess.h */; };
+		76BEC8721A92E639000BF339 /* TableTestProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7E11A92E4B3000BF339 /* TableTestProcess.h */; };
+		76BEC8731A92E639000BF339 /* Items.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7E41A92E4B3000BF339 /* Items.h */; };
+		76BEC8741A92E639000BF339 /* StringRemoval.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7E71A92E4B3000BF339 /* StringRemoval.h */; };
+		76BEC8751A92E639000BF339 /* UICGPolyline.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7E91A92E4B3000BF339 /* UICGPolyline.h */; };
+		76BEC8761A92E639000BF339 /* UICGRoute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7EB1A92E4B3000BF339 /* UICGRoute.h */; };
+		76BEC8771A92E639000BF339 /* UICGStep.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7ED1A92E4B3000BF339 /* UICGStep.h */; };
+		76BEC8781A92E639000BF339 /* NSDictionary+QS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7EF1A92E4B3000BF339 /* NSDictionary+QS.h */; };
+		76BEC8791A92E639000BF339 /* DTOAccountProcessObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7F21A92E4B3000BF339 /* DTOAccountProcessObject.h */; };
+		76BEC87A1A92E639000BF339 /* DTOAcountLeadProcessObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7F41A92E4B3000BF339 /* DTOAcountLeadProcessObject.h */; };
+		76BEC87B1A92E639000BF339 /* DTOComplainObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7F61A92E4B3000BF339 /* DTOComplainObject.h */; };
+		76BEC87C1A92E639000BF339 /* DTOProBaoLanhDetailObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7F81A92E4B3000BF339 /* DTOProBaoLanhDetailObject.h */; };
+		76BEC87D1A92E639000BF339 /* DTOProBPDetailObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7FA1A92E4B3000BF339 /* DTOProBPDetailObject.h */; };
+		76BEC87E1A92E639000BF339 /* DTOProductDetailObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7FC1A92E4B3000BF339 /* DTOProductDetailObject.h */; };
+		76BEC87F1A92E639000BF339 /* DTOProductLeadTypeObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC7FE1A92E4B3000BF339 /* DTOProductLeadTypeObject.h */; };
+		76BEC8801A92E639000BF339 /* DTOProductMasterObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC8001A92E4B3000BF339 /* DTOProductMasterObject.h */; };
+		76BEC8811A92E639000BF339 /* DTOProEMBDetailObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC8021A92E4B3000BF339 /* DTOProEMBDetailObject.h */; };
+		76BEC8821A92E639000BF339 /* DTOProThanhToanDetailObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC8041A92E4B3000BF339 /* DTOProThanhToanDetailObject.h */; };
+		76BEC8831A92E639000BF339 /* DTOProTietKiemDetailObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC8061A92E4B3000BF339 /* DTOProTietKiemDetailObject.h */; };
+		76BEC8841A92E639000BF339 /* DTOProTindungDetailObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC8081A92E4B3000BF339 /* DTOProTindungDetailObject.h */; };
+		76BEC8851A92E639000BF339 /* DTOProTTQTDetailObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC80A1A92E4B3000BF339 /* DTOProTTQTDetailObject.h */; };
+		76BEC8861A92E639000BF339 /* DTOProWay4DetailObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC80C1A92E4B3000BF339 /* DTOProWay4DetailObject.h */; };
+		76BEC8871A92E639000BF339 /* DTOTaskObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC80E1A92E4B3000BF339 /* DTOTaskObject.h */; };
+		76BEC8881A92E639000BF339 /* DTOWidgetObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC8101A92E4B3000BF339 /* DTOWidgetObject.h */; };
+		76BEC8891A92E639000BF339 /* DTOWidgetTypeObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC8121A92E4B3000BF339 /* DTOWidgetTypeObject.h */; };
+		76BEC88A1A92E639000BF339 /* BaseDataProcess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC8151A92E4B3000BF339 /* BaseDataProcess.h */; };
+		76BEC88B1A92E639000BF339 /* DataUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC8171A92E4B3000BF339 /* DataUtil.h */; };
+		76BEC88C1A92E639000BF339 /* OrderByObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC8191A92E4B3000BF339 /* OrderByObject.h */; };
+		76BEC88F1A92E9D4000BF339 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BEC88E1A92E9D4000BF339 /* libsqlite3.0.dylib */; };
+		76BEC8931A92F968000BF339 /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC8921A92F968000BF339 /* StringUtil.m */; };
+		76BEC8961A92FA14000BF339 /* LogUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC8951A92FA14000BF339 /* LogUtil.m */; };
+		76BEC8991A92FACF000BF339 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BEC8981A92FACF000BF339 /* DateUtil.m */; };
+		76BEC8DB1A92FC95000BF339 /* DateUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC8971A92FACF000BF339 /* DateUtil.h */; };
+		76BEC8DC1A92FC95000BF339 /* LogUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC8941A92FA14000BF339 /* LogUtil.h */; };
+		76BEC8DD1A92FC95000BF339 /* StringUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76BEC8911A92F968000BF339 /* StringUtil.h */; };
+		76DD27F51A918F8C007D865A /* libProcessData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DD27E91A918F8C007D865A /* libProcessData.a */; };
+		76DD28051A91905E007D865A /* ProcessDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DD28041A91905E007D865A /* ProcessDataUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76DD27F61A918F8C007D865A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76DD27E11A918F8C007D865A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76DD27E81A918F8C007D865A;
+			remoteInfo = ProcessData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		76DD27E71A918F8C007D865A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				76BEC8DB1A92FC95000BF339 /* DateUtil.h in CopyFiles */,
+				76BEC8DC1A92FC95000BF339 /* LogUtil.h in CopyFiles */,
+				76BEC8DD1A92FC95000BF339 /* StringUtil.h in CopyFiles */,
+				76BEC8541A92E639000BF339 /* DataField.h in CopyFiles */,
+				76BEC8551A92E639000BF339 /* DTOACCCONTACTProcess.h in CopyFiles */,
+				76BEC8561A92E639000BF339 /* DTOACCOUNTLEADProcess.h in CopyFiles */,
+				76BEC8571A92E639000BF339 /* DTOACCOUNTProcess.h in CopyFiles */,
+				76BEC8581A92E639000BF339 /* DTOATTACHMENTProcess.h in CopyFiles */,
+				76BEC8591A92E639000BF339 /* DTOCOMPETITORProcess.h in CopyFiles */,
+				76BEC85A1A92E639000BF339 /* DTOComplainProcess.h in CopyFiles */,
+				76BEC85B1A92E639000BF339 /* DTOCONTACTProcess.h in CopyFiles */,
+				76BEC85C1A92E639000BF339 /* DTOEMPLOYEEACCOUNTProcess.h in CopyFiles */,
+				76BEC85D1A92E639000BF339 /* DTOFLLOWUPProcess.h in CopyFiles */,
+				76BEC85E1A92E639000BF339 /* DTOINVENTORYProcess.h in CopyFiles */,
+				76BEC85F1A92E639000BF339 /* DTONOTEProcess.h in CopyFiles */,
+				76BEC8601A92E639000BF339 /* DTOOPPORTUNITYCONTACTProcess.h in CopyFiles */,
+				76BEC8611A92E639000BF339 /* DTOOPPORTUNITYProcess.h in CopyFiles */,
+				76BEC8621A92E639000BF339 /* DTOOPPORTUNITYPRODUCTProcess.h in CopyFiles */,
+				76BEC8631A92E639000BF339 /* DTOProBaoLanhDetailProcess.h in CopyFiles */,
+				76BEC8641A92E639000BF339 /* DTOProBPDetailProcess.h in CopyFiles */,
+				76BEC8651A92E639000BF339 /* DTOPRODUCTDETAILProcess.h in CopyFiles */,
+				76BEC8661A92E639000BF339 /* DTOPRODUCTMASTERProcess.h in CopyFiles */,
+				76BEC8671A92E639000BF339 /* DTOPRODUCTTYPEProcess.h in CopyFiles */,
+				76BEC8681A92E639000BF339 /* DTOProEMBDetailProcess.h in CopyFiles */,
+				76BEC8691A92E639000BF339 /* DTOProThanhToanDetailProcess.h in CopyFiles */,
+				76BEC86A1A92E639000BF339 /* DTOProTietKiemDetailProcess.h in CopyFiles */,
+				76BEC86B1A92E639000BF339 /* DTOProTindungDetailProcess.h in CopyFiles */,
+				76BEC86C1A92E639000BF339 /* DTOProTTQTDetailProcess.h in CopyFiles */,
+				76BEC86D1A92E639000BF339 /* DTOProWay4DetailProcess.h in CopyFiles */,
+				76BEC86E1A92E639000BF339 /* DTOSYSCATProcess.h in CopyFiles */,
+				76BEC86F1A92E639000BF339 /* DTOTASKProcess.h in CopyFiles */,
+				76BEC8701A92E639000BF339 /* DTOWidgetProcess.h in CopyFiles */,
+				76BEC8711A92E639000BF339 /* DTOWidgetTypeProcess.h in CopyFiles */,
+				76BEC8721A92E639000BF339 /* TableTestProcess.h in CopyFiles */,
+				76BEC8731A92E639000BF339 /* Items.h in CopyFiles */,
+				76BEC8741A92E639000BF339 /* StringRemoval.h in CopyFiles */,
+				76BEC8751A92E639000BF339 /* UICGPolyline.h in CopyFiles */,
+				76BEC8761A92E639000BF339 /* UICGRoute.h in CopyFiles */,
+				76BEC8771A92E639000BF339 /* UICGStep.h in CopyFiles */,
+				76BEC8781A92E639000BF339 /* NSDictionary+QS.h in CopyFiles */,
+				76BEC8791A92E639000BF339 /* DTOAccountProcessObject.h in CopyFiles */,
+				76BEC87A1A92E639000BF339 /* DTOAcountLeadProcessObject.h in CopyFiles */,
+				76BEC87B1A92E639000BF339 /* DTOComplainObject.h in CopyFiles */,
+				76BEC87C1A92E639000BF339 /* DTOProBaoLanhDetailObject.h in CopyFiles */,
+				76BEC87D1A92E639000BF339 /* DTOProBPDetailObject.h in CopyFiles */,
+				76BEC87E1A92E639000BF339 /* DTOProductDetailObject.h in CopyFiles */,
+				76BEC87F1A92E639000BF339 /* DTOProductLeadTypeObject.h in CopyFiles */,
+				76BEC8801A92E639000BF339 /* DTOProductMasterObject.h in CopyFiles */,
+				76BEC8811A92E639000BF339 /* DTOProEMBDetailObject.h in CopyFiles */,
+				76BEC8821A92E639000BF339 /* DTOProThanhToanDetailObject.h in CopyFiles */,
+				76BEC8831A92E639000BF339 /* DTOProTietKiemDetailObject.h in CopyFiles */,
+				76BEC8841A92E639000BF339 /* DTOProTindungDetailObject.h in CopyFiles */,
+				76BEC8851A92E639000BF339 /* DTOProTTQTDetailObject.h in CopyFiles */,
+				76BEC8861A92E639000BF339 /* DTOProWay4DetailObject.h in CopyFiles */,
+				76BEC8871A92E639000BF339 /* DTOTaskObject.h in CopyFiles */,
+				76BEC8881A92E639000BF339 /* DTOWidgetObject.h in CopyFiles */,
+				76BEC8891A92E639000BF339 /* DTOWidgetTypeObject.h in CopyFiles */,
+				76BEC88A1A92E639000BF339 /* BaseDataProcess.h in CopyFiles */,
+				76BEC88B1A92E639000BF339 /* DataUtil.h in CopyFiles */,
+				76BEC88C1A92E639000BF339 /* OrderByObject.h in CopyFiles */,
+				76BEC79C1A92C9AC000BF339 /* ProcessDataUtil.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		76BEC7A51A92E4B3000BF339 /* DataField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataField.h; sourceTree = "<group>"; };
+		76BEC7A61A92E4B3000BF339 /* DataField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataField.m; sourceTree = "<group>"; };
+		76BEC7A71A92E4B3000BF339 /* DTOACCCONTACTProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOACCCONTACTProcess.h; sourceTree = "<group>"; };
+		76BEC7A81A92E4B3000BF339 /* DTOACCCONTACTProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOACCCONTACTProcess.m; sourceTree = "<group>"; };
+		76BEC7A91A92E4B3000BF339 /* DTOACCOUNTLEADProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOACCOUNTLEADProcess.h; sourceTree = "<group>"; };
+		76BEC7AA1A92E4B3000BF339 /* DTOACCOUNTLEADProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOACCOUNTLEADProcess.m; sourceTree = "<group>"; };
+		76BEC7AB1A92E4B3000BF339 /* DTOACCOUNTProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOACCOUNTProcess.h; sourceTree = "<group>"; };
+		76BEC7AC1A92E4B3000BF339 /* DTOACCOUNTProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOACCOUNTProcess.m; sourceTree = "<group>"; };
+		76BEC7AD1A92E4B3000BF339 /* DTOATTACHMENTProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOATTACHMENTProcess.h; sourceTree = "<group>"; };
+		76BEC7AE1A92E4B3000BF339 /* DTOATTACHMENTProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOATTACHMENTProcess.m; sourceTree = "<group>"; };
+		76BEC7AF1A92E4B3000BF339 /* DTOCOMPETITORProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOCOMPETITORProcess.h; sourceTree = "<group>"; };
+		76BEC7B01A92E4B3000BF339 /* DTOCOMPETITORProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOCOMPETITORProcess.m; sourceTree = "<group>"; };
+		76BEC7B11A92E4B3000BF339 /* DTOComplainProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOComplainProcess.h; sourceTree = "<group>"; };
+		76BEC7B21A92E4B3000BF339 /* DTOComplainProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOComplainProcess.m; sourceTree = "<group>"; };
+		76BEC7B31A92E4B3000BF339 /* DTOCONTACTProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOCONTACTProcess.h; sourceTree = "<group>"; };
+		76BEC7B41A92E4B3000BF339 /* DTOCONTACTProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOCONTACTProcess.m; sourceTree = "<group>"; };
+		76BEC7B51A92E4B3000BF339 /* DTOEMPLOYEEACCOUNTProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOEMPLOYEEACCOUNTProcess.h; sourceTree = "<group>"; };
+		76BEC7B61A92E4B3000BF339 /* DTOEMPLOYEEACCOUNTProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOEMPLOYEEACCOUNTProcess.m; sourceTree = "<group>"; };
+		76BEC7B71A92E4B3000BF339 /* DTOFLLOWUPProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOFLLOWUPProcess.h; sourceTree = "<group>"; };
+		76BEC7B81A92E4B3000BF339 /* DTOFLLOWUPProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOFLLOWUPProcess.m; sourceTree = "<group>"; };
+		76BEC7B91A92E4B3000BF339 /* DTOINVENTORYProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOINVENTORYProcess.h; sourceTree = "<group>"; };
+		76BEC7BA1A92E4B3000BF339 /* DTOINVENTORYProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOINVENTORYProcess.m; sourceTree = "<group>"; };
+		76BEC7BB1A92E4B3000BF339 /* DTONOTEProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTONOTEProcess.h; sourceTree = "<group>"; };
+		76BEC7BC1A92E4B3000BF339 /* DTONOTEProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTONOTEProcess.m; sourceTree = "<group>"; };
+		76BEC7BD1A92E4B3000BF339 /* DTOOPPORTUNITYCONTACTProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOOPPORTUNITYCONTACTProcess.h; sourceTree = "<group>"; };
+		76BEC7BE1A92E4B3000BF339 /* DTOOPPORTUNITYCONTACTProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOOPPORTUNITYCONTACTProcess.m; sourceTree = "<group>"; };
+		76BEC7BF1A92E4B3000BF339 /* DTOOPPORTUNITYProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOOPPORTUNITYProcess.h; sourceTree = "<group>"; };
+		76BEC7C01A92E4B3000BF339 /* DTOOPPORTUNITYProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOOPPORTUNITYProcess.m; sourceTree = "<group>"; };
+		76BEC7C11A92E4B3000BF339 /* DTOOPPORTUNITYPRODUCTProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOOPPORTUNITYPRODUCTProcess.h; sourceTree = "<group>"; };
+		76BEC7C21A92E4B3000BF339 /* DTOOPPORTUNITYPRODUCTProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOOPPORTUNITYPRODUCTProcess.m; sourceTree = "<group>"; };
+		76BEC7C31A92E4B3000BF339 /* DTOProBaoLanhDetailProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOProBaoLanhDetailProcess.h; sourceTree = "<group>"; };
+		76BEC7C41A92E4B3000BF339 /* DTOProBaoLanhDetailProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOProBaoLanhDetailProcess.m; sourceTree = "<group>"; };
+		76BEC7C51A92E4B3000BF339 /* DTOProBPDetailProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOProBPDetailProcess.h; sourceTree = "<group>"; };
+		76BEC7C61A92E4B3000BF339 /* DTOProBPDetailProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOProBPDetailProcess.m; sourceTree = "<group>"; };
+		76BEC7C71A92E4B3000BF339 /* DTOPRODUCTDETAILProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOPRODUCTDETAILProcess.h; sourceTree = "<group>"; };
+		76BEC7C81A92E4B3000BF339 /* DTOPRODUCTDETAILProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOPRODUCTDETAILProcess.m; sourceTree = "<group>"; };
+		76BEC7C91A92E4B3000BF339 /* DTOPRODUCTMASTERProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOPRODUCTMASTERProcess.h; sourceTree = "<group>"; };
+		76BEC7CA1A92E4B3000BF339 /* DTOPRODUCTMASTERProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOPRODUCTMASTERProcess.m; sourceTree = "<group>"; };
+		76BEC7CB1A92E4B3000BF339 /* DTOPRODUCTTYPEProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOPRODUCTTYPEProcess.h; sourceTree = "<group>"; };
+		76BEC7CC1A92E4B3000BF339 /* DTOPRODUCTTYPEProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOPRODUCTTYPEProcess.m; sourceTree = "<group>"; };
+		76BEC7CD1A92E4B3000BF339 /* DTOProEMBDetailProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOProEMBDetailProcess.h; sourceTree = "<group>"; };
+		76BEC7CE1A92E4B3000BF339 /* DTOProEMBDetailProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOProEMBDetailProcess.m; sourceTree = "<group>"; };
+		76BEC7CF1A92E4B3000BF339 /* DTOProThanhToanDetailProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOProThanhToanDetailProcess.h; sourceTree = "<group>"; };
+		76BEC7D01A92E4B3000BF339 /* DTOProThanhToanDetailProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOProThanhToanDetailProcess.m; sourceTree = "<group>"; };
+		76BEC7D11A92E4B3000BF339 /* DTOProTietKiemDetailProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOProTietKiemDetailProcess.h; sourceTree = "<group>"; };
+		76BEC7D21A92E4B3000BF339 /* DTOProTietKiemDetailProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOProTietKiemDetailProcess.m; sourceTree = "<group>"; };
+		76BEC7D31A92E4B3000BF339 /* DTOProTindungDetailProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOProTindungDetailProcess.h; sourceTree = "<group>"; };
+		76BEC7D41A92E4B3000BF339 /* DTOProTindungDetailProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOProTindungDetailProcess.m; sourceTree = "<group>"; };
+		76BEC7D51A92E4B3000BF339 /* DTOProTTQTDetailProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOProTTQTDetailProcess.h; sourceTree = "<group>"; };
+		76BEC7D61A92E4B3000BF339 /* DTOProTTQTDetailProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOProTTQTDetailProcess.m; sourceTree = "<group>"; };
+		76BEC7D71A92E4B3000BF339 /* DTOProWay4DetailProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOProWay4DetailProcess.h; sourceTree = "<group>"; };
+		76BEC7D81A92E4B3000BF339 /* DTOProWay4DetailProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOProWay4DetailProcess.m; sourceTree = "<group>"; };
+		76BEC7D91A92E4B3000BF339 /* DTOSYSCATProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOSYSCATProcess.h; sourceTree = "<group>"; };
+		76BEC7DA1A92E4B3000BF339 /* DTOSYSCATProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOSYSCATProcess.m; sourceTree = "<group>"; };
+		76BEC7DB1A92E4B3000BF339 /* DTOTASKProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOTASKProcess.h; sourceTree = "<group>"; };
+		76BEC7DC1A92E4B3000BF339 /* DTOTASKProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOTASKProcess.m; sourceTree = "<group>"; };
+		76BEC7DD1A92E4B3000BF339 /* DTOWidgetProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOWidgetProcess.h; sourceTree = "<group>"; };
+		76BEC7DE1A92E4B3000BF339 /* DTOWidgetProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOWidgetProcess.m; sourceTree = "<group>"; };
+		76BEC7DF1A92E4B3000BF339 /* DTOWidgetTypeProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOWidgetTypeProcess.h; sourceTree = "<group>"; };
+		76BEC7E01A92E4B3000BF339 /* DTOWidgetTypeProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOWidgetTypeProcess.m; sourceTree = "<group>"; };
+		76BEC7E11A92E4B3000BF339 /* TableTestProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableTestProcess.h; sourceTree = "<group>"; };
+		76BEC7E21A92E4B3000BF339 /* TableTestProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableTestProcess.m; sourceTree = "<group>"; };
+		76BEC7E41A92E4B3000BF339 /* Items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Items.h; sourceTree = "<group>"; };
+		76BEC7E51A92E4B3000BF339 /* Items.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Items.m; sourceTree = "<group>"; };
+		76BEC7E71A92E4B3000BF339 /* StringRemoval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringRemoval.h; sourceTree = "<group>"; };
+		76BEC7E81A92E4B3000BF339 /* StringRemoval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringRemoval.m; sourceTree = "<group>"; };
+		76BEC7E91A92E4B3000BF339 /* UICGPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICGPolyline.h; sourceTree = "<group>"; };
+		76BEC7EA1A92E4B3000BF339 /* UICGPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICGPolyline.m; sourceTree = "<group>"; };
+		76BEC7EB1A92E4B3000BF339 /* UICGRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICGRoute.h; sourceTree = "<group>"; };
+		76BEC7EC1A92E4B3000BF339 /* UICGRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICGRoute.m; sourceTree = "<group>"; };
+		76BEC7ED1A92E4B3000BF339 /* UICGStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICGStep.h; sourceTree = "<group>"; };
+		76BEC7EE1A92E4B3000BF339 /* UICGStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICGStep.m; sourceTree = "<group>"; };
+		76BEC7EF1A92E4B3000BF339 /* NSDictionary+QS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QS.h"; sourceTree = "<group>"; };
+		76BEC7F01A92E4B3000BF339 /* NSDictionary+QS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QS.m"; sourceTree = "<group>"; };
+		76BEC7F21A92E4B3000BF339 /* DTOAccountProcessObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOAccountProcessObject.h; sourceTree = "<group>"; };
+		76BEC7F31A92E4B3000BF339 /* DTOAccountProcessObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOAccountProcessObject.m; sourceTree = "<group>"; };
+		76BEC7F41A92E4B3000BF339 /* DTOAcountLeadProcessObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOAcountLeadProcessObject.h; sourceTree = "<group>"; };
+		76BEC7F51A92E4B3000BF339 /* DTOAcountLeadProcessObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOAcountLeadProcessObject.m; sourceTree = "<group>"; };
+		76BEC7F61A92E4B3000BF339 /* DTOComplainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOComplainObject.h; sourceTree = "<group>"; };
+		76BEC7F71A92E4B3000BF339 /* DTOComplainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOComplainObject.m; sourceTree = "<group>"; };
+		76BEC7F81A92E4B3000BF339 /* DTOProBaoLanhDetailObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOProBaoLanhDetailObject.h; sourceTree = "<group>"; };
+		76BEC7F91A92E4B3000BF339 /* DTOProBaoLanhDetailObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOProBaoLanhDetailObject.m; sourceTree = "<group>"; };
+		76BEC7FA1A92E4B3000BF339 /* DTOProBPDetailObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOProBPDetailObject.h; sourceTree = "<group>"; };
+		76BEC7FB1A92E4B3000BF339 /* DTOProBPDetailObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOProBPDetailObject.m; sourceTree = "<group>"; };
+		76BEC7FC1A92E4B3000BF339 /* DTOProductDetailObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOProductDetailObject.h; sourceTree = "<group>"; };
+		76BEC7FD1A92E4B3000BF339 /* DTOProductDetailObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOProductDetailObject.m; sourceTree = "<group>"; };
+		76BEC7FE1A92E4B3000BF339 /* DTOProductLeadTypeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOProductLeadTypeObject.h; sourceTree = "<group>"; };
+		76BEC7FF1A92E4B3000BF339 /* DTOProductLeadTypeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOProductLeadTypeObject.m; sourceTree = "<group>"; };
+		76BEC8001A92E4B3000BF339 /* DTOProductMasterObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOProductMasterObject.h; sourceTree = "<group>"; };
+		76BEC8011A92E4B3000BF339 /* DTOProductMasterObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOProductMasterObject.m; sourceTree = "<group>"; };
+		76BEC8021A92E4B3000BF339 /* DTOProEMBDetailObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOProEMBDetailObject.h; sourceTree = "<group>"; };
+		76BEC8031A92E4B3000BF339 /* DTOProEMBDetailObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOProEMBDetailObject.m; sourceTree = "<group>"; };
+		76BEC8041A92E4B3000BF339 /* DTOProThanhToanDetailObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOProThanhToanDetailObject.h; sourceTree = "<group>"; };
+		76BEC8051A92E4B3000BF339 /* DTOProThanhToanDetailObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOProThanhToanDetailObject.m; sourceTree = "<group>"; };
+		76BEC8061A92E4B3000BF339 /* DTOProTietKiemDetailObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOProTietKiemDetailObject.h; sourceTree = "<group>"; };
+		76BEC8071A92E4B3000BF339 /* DTOProTietKiemDetailObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOProTietKiemDetailObject.m; sourceTree = "<group>"; };
+		76BEC8081A92E4B3000BF339 /* DTOProTindungDetailObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOProTindungDetailObject.h; sourceTree = "<group>"; };
+		76BEC8091A92E4B3000BF339 /* DTOProTindungDetailObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOProTindungDetailObject.m; sourceTree = "<group>"; };
+		76BEC80A1A92E4B3000BF339 /* DTOProTTQTDetailObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOProTTQTDetailObject.h; sourceTree = "<group>"; };
+		76BEC80B1A92E4B3000BF339 /* DTOProTTQTDetailObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOProTTQTDetailObject.m; sourceTree = "<group>"; };
+		76BEC80C1A92E4B3000BF339 /* DTOProWay4DetailObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOProWay4DetailObject.h; sourceTree = "<group>"; };
+		76BEC80D1A92E4B3000BF339 /* DTOProWay4DetailObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOProWay4DetailObject.m; sourceTree = "<group>"; };
+		76BEC80E1A92E4B3000BF339 /* DTOTaskObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOTaskObject.h; sourceTree = "<group>"; };
+		76BEC80F1A92E4B3000BF339 /* DTOTaskObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOTaskObject.m; sourceTree = "<group>"; };
+		76BEC8101A92E4B3000BF339 /* DTOWidgetObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOWidgetObject.h; sourceTree = "<group>"; };
+		76BEC8111A92E4B3000BF339 /* DTOWidgetObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOWidgetObject.m; sourceTree = "<group>"; };
+		76BEC8121A92E4B3000BF339 /* DTOWidgetTypeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOWidgetTypeObject.h; sourceTree = "<group>"; };
+		76BEC8131A92E4B3000BF339 /* DTOWidgetTypeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOWidgetTypeObject.m; sourceTree = "<group>"; };
+		76BEC8151A92E4B3000BF339 /* BaseDataProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDataProcess.h; sourceTree = "<group>"; };
+		76BEC8161A92E4B3000BF339 /* BaseDataProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDataProcess.m; sourceTree = "<group>"; };
+		76BEC8171A92E4B3000BF339 /* DataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataUtil.h; sourceTree = "<group>"; };
+		76BEC8181A92E4B3000BF339 /* DataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataUtil.m; sourceTree = "<group>"; };
+		76BEC8191A92E4B3000BF339 /* OrderByObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderByObject.h; sourceTree = "<group>"; };
+		76BEC81A1A92E4B3000BF339 /* OrderByObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderByObject.m; sourceTree = "<group>"; };
+		76BEC88E1A92E9D4000BF339 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		76BEC8901A92ED5D000BF339 /* ProcessData_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessData_Prefix.pch; sourceTree = "<group>"; };
+		76BEC8911A92F968000BF339 /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
+		76BEC8921A92F968000BF339 /* StringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtil.m; sourceTree = "<group>"; };
+		76BEC8941A92FA14000BF339 /* LogUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogUtil.h; sourceTree = "<group>"; };
+		76BEC8951A92FA14000BF339 /* LogUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogUtil.m; sourceTree = "<group>"; };
+		76BEC8971A92FACF000BF339 /* DateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtil.h; sourceTree = "<group>"; };
+		76BEC8981A92FACF000BF339 /* DateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtil.m; sourceTree = "<group>"; };
+		76DD27E91A918F8C007D865A /* libProcessData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libProcessData.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DD27F41A918F8C007D865A /* ProcessDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProcessDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DD27FA1A918F8C007D865A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76DD28031A91905E007D865A /* ProcessDataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessDataUtil.h; sourceTree = "<group>"; };
+		76DD28041A91905E007D865A /* ProcessDataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessDataUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76DD27E61A918F8C007D865A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76BEC88F1A92E9D4000BF339 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DD27F11A918F8C007D865A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DD27F51A918F8C007D865A /* libProcessData.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76BEC7A41A92E4B3000BF339 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				76BEC7A51A92E4B3000BF339 /* DataField.h */,
+				76BEC7A61A92E4B3000BF339 /* DataField.m */,
+				76BEC7A71A92E4B3000BF339 /* DTOACCCONTACTProcess.h */,
+				76BEC7A81A92E4B3000BF339 /* DTOACCCONTACTProcess.m */,
+				76BEC7A91A92E4B3000BF339 /* DTOACCOUNTLEADProcess.h */,
+				76BEC7AA1A92E4B3000BF339 /* DTOACCOUNTLEADProcess.m */,
+				76BEC7AB1A92E4B3000BF339 /* DTOACCOUNTProcess.h */,
+				76BEC7AC1A92E4B3000BF339 /* DTOACCOUNTProcess.m */,
+				76BEC7AD1A92E4B3000BF339 /* DTOATTACHMENTProcess.h */,
+				76BEC7AE1A92E4B3000BF339 /* DTOATTACHMENTProcess.m */,
+				76BEC7AF1A92E4B3000BF339 /* DTOCOMPETITORProcess.h */,
+				76BEC7B01A92E4B3000BF339 /* DTOCOMPETITORProcess.m */,
+				76BEC7B11A92E4B3000BF339 /* DTOComplainProcess.h */,
+				76BEC7B21A92E4B3000BF339 /* DTOComplainProcess.m */,
+				76BEC7B31A92E4B3000BF339 /* DTOCONTACTProcess.h */,
+				76BEC7B41A92E4B3000BF339 /* DTOCONTACTProcess.m */,
+				76BEC7B51A92E4B3000BF339 /* DTOEMPLOYEEACCOUNTProcess.h */,
+				76BEC7B61A92E4B3000BF339 /* DTOEMPLOYEEACCOUNTProcess.m */,
+				76BEC7B71A92E4B3000BF339 /* DTOFLLOWUPProcess.h */,
+				76BEC7B81A92E4B3000BF339 /* DTOFLLOWUPProcess.m */,
+				76BEC7B91A92E4B3000BF339 /* DTOINVENTORYProcess.h */,
+				76BEC7BA1A92E4B3000BF339 /* DTOINVENTORYProcess.m */,
+				76BEC7BB1A92E4B3000BF339 /* DTONOTEProcess.h */,
+				76BEC7BC1A92E4B3000BF339 /* DTONOTEProcess.m */,
+				76BEC7BD1A92E4B3000BF339 /* DTOOPPORTUNITYCONTACTProcess.h */,
+				76BEC7BE1A92E4B3000BF339 /* DTOOPPORTUNITYCONTACTProcess.m */,
+				76BEC7BF1A92E4B3000BF339 /* DTOOPPORTUNITYProcess.h */,
+				76BEC7C01A92E4B3000BF339 /* DTOOPPORTUNITYProcess.m */,
+				76BEC7C11A92E4B3000BF339 /* DTOOPPORTUNITYPRODUCTProcess.h */,
+				76BEC7C21A92E4B3000BF339 /* DTOOPPORTUNITYPRODUCTProcess.m */,
+				76BEC7C31A92E4B3000BF339 /* DTOProBaoLanhDetailProcess.h */,
+				76BEC7C41A92E4B3000BF339 /* DTOProBaoLanhDetailProcess.m */,
+				76BEC7C51A92E4B3000BF339 /* DTOProBPDetailProcess.h */,
+				76BEC7C61A92E4B3000BF339 /* DTOProBPDetailProcess.m */,
+				76BEC7C71A92E4B3000BF339 /* DTOPRODUCTDETAILProcess.h */,
+				76BEC7C81A92E4B3000BF339 /* DTOPRODUCTDETAILProcess.m */,
+				76BEC7C91A92E4B3000BF339 /* DTOPRODUCTMASTERProcess.h */,
+				76BEC7CA1A92E4B3000BF339 /* DTOPRODUCTMASTERProcess.m */,
+				76BEC7CB1A92E4B3000BF339 /* DTOPRODUCTTYPEProcess.h */,
+				76BEC7CC1A92E4B3000BF339 /* DTOPRODUCTTYPEProcess.m */,
+				76BEC7CD1A92E4B3000BF339 /* DTOProEMBDetailProcess.h */,
+				76BEC7CE1A92E4B3000BF339 /* DTOProEMBDetailProcess.m */,
+				76BEC7CF1A92E4B3000BF339 /* DTOProThanhToanDetailProcess.h */,
+				76BEC7D01A92E4B3000BF339 /* DTOProThanhToanDetailProcess.m */,
+				76BEC7D11A92E4B3000BF339 /* DTOProTietKiemDetailProcess.h */,
+				76BEC7D21A92E4B3000BF339 /* DTOProTietKiemDetailProcess.m */,
+				76BEC7D31A92E4B3000BF339 /* DTOProTindungDetailProcess.h */,
+				76BEC7D41A92E4B3000BF339 /* DTOProTindungDetailProcess.m */,
+				76BEC7D51A92E4B3000BF339 /* DTOProTTQTDetailProcess.h */,
+				76BEC7D61A92E4B3000BF339 /* DTOProTTQTDetailProcess.m */,
+				76BEC7D71A92E4B3000BF339 /* DTOProWay4DetailProcess.h */,
+				76BEC7D81A92E4B3000BF339 /* DTOProWay4DetailProcess.m */,
+				76BEC7D91A92E4B3000BF339 /* DTOSYSCATProcess.h */,
+				76BEC7DA1A92E4B3000BF339 /* DTOSYSCATProcess.m */,
+				76BEC7DB1A92E4B3000BF339 /* DTOTASKProcess.h */,
+				76BEC7DC1A92E4B3000BF339 /* DTOTASKProcess.m */,
+				76BEC7DD1A92E4B3000BF339 /* DTOWidgetProcess.h */,
+				76BEC7DE1A92E4B3000BF339 /* DTOWidgetProcess.m */,
+				76BEC7DF1A92E4B3000BF339 /* DTOWidgetTypeProcess.h */,
+				76BEC7E01A92E4B3000BF339 /* DTOWidgetTypeProcess.m */,
+				76BEC7E11A92E4B3000BF339 /* TableTestProcess.h */,
+				76BEC7E21A92E4B3000BF339 /* TableTestProcess.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		76BEC7E31A92E4B3000BF339 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				76BEC7E41A92E4B3000BF339 /* Items.h */,
+				76BEC7E51A92E4B3000BF339 /* Items.m */,
+				76BEC7E61A92E4B3000BF339 /* Maps */,
+				76BEC7EF1A92E4B3000BF339 /* NSDictionary+QS.h */,
+				76BEC7F01A92E4B3000BF339 /* NSDictionary+QS.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		76BEC7E61A92E4B3000BF339 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				76BEC7E71A92E4B3000BF339 /* StringRemoval.h */,
+				76BEC7E81A92E4B3000BF339 /* StringRemoval.m */,
+				76BEC7E91A92E4B3000BF339 /* UICGPolyline.h */,
+				76BEC7EA1A92E4B3000BF339 /* UICGPolyline.m */,
+				76BEC7EB1A92E4B3000BF339 /* UICGRoute.h */,
+				76BEC7EC1A92E4B3000BF339 /* UICGRoute.m */,
+				76BEC7ED1A92E4B3000BF339 /* UICGStep.h */,
+				76BEC7EE1A92E4B3000BF339 /* UICGStep.m */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		76BEC7F11A92E4B3000BF339 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				76BEC7F21A92E4B3000BF339 /* DTOAccountProcessObject.h */,
+				76BEC7F31A92E4B3000BF339 /* DTOAccountProcessObject.m */,
+				76BEC7F41A92E4B3000BF339 /* DTOAcountLeadProcessObject.h */,
+				76BEC7F51A92E4B3000BF339 /* DTOAcountLeadProcessObject.m */,
+				76BEC7F61A92E4B3000BF339 /* DTOComplainObject.h */,
+				76BEC7F71A92E4B3000BF339 /* DTOComplainObject.m */,
+				76BEC7F81A92E4B3000BF339 /* DTOProBaoLanhDetailObject.h */,
+				76BEC7F91A92E4B3000BF339 /* DTOProBaoLanhDetailObject.m */,
+				76BEC7FA1A92E4B3000BF339 /* DTOProBPDetailObject.h */,
+				76BEC7FB1A92E4B3000BF339 /* DTOProBPDetailObject.m */,
+				76BEC7FC1A92E4B3000BF339 /* DTOProductDetailObject.h */,
+				76BEC7FD1A92E4B3000BF339 /* DTOProductDetailObject.m */,
+				76BEC7FE1A92E4B3000BF339 /* DTOProductLeadTypeObject.h */,
+				76BEC7FF1A92E4B3000BF339 /* DTOProductLeadTypeObject.m */,
+				76BEC8001A92E4B3000BF339 /* DTOProductMasterObject.h */,
+				76BEC8011A92E4B3000BF339 /* DTOProductMasterObject.m */,
+				76BEC8021A92E4B3000BF339 /* DTOProEMBDetailObject.h */,
+				76BEC8031A92E4B3000BF339 /* DTOProEMBDetailObject.m */,
+				76BEC8041A92E4B3000BF339 /* DTOProThanhToanDetailObject.h */,
+				76BEC8051A92E4B3000BF339 /* DTOProThanhToanDetailObject.m */,
+				76BEC8061A92E4B3000BF339 /* DTOProTietKiemDetailObject.h */,
+				76BEC8071A92E4B3000BF339 /* DTOProTietKiemDetailObject.m */,
+				76BEC8081A92E4B3000BF339 /* DTOProTindungDetailObject.h */,
+				76BEC8091A92E4B3000BF339 /* DTOProTindungDetailObject.m */,
+				76BEC80A1A92E4B3000BF339 /* DTOProTTQTDetailObject.h */,
+				76BEC80B1A92E4B3000BF339 /* DTOProTTQTDetailObject.m */,
+				76BEC80C1A92E4B3000BF339 /* DTOProWay4DetailObject.h */,
+				76BEC80D1A92E4B3000BF339 /* DTOProWay4DetailObject.m */,
+				76BEC80E1A92E4B3000BF339 /* DTOTaskObject.h */,
+				76BEC80F1A92E4B3000BF339 /* DTOTaskObject.m */,
+				76BEC8101A92E4B3000BF339 /* DTOWidgetObject.h */,
+				76BEC8111A92E4B3000BF339 /* DTOWidgetObject.m */,
+				76BEC8121A92E4B3000BF339 /* DTOWidgetTypeObject.h */,
+				76BEC8131A92E4B3000BF339 /* DTOWidgetTypeObject.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		76BEC8141A92E4B3000BF339 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				76BEC8151A92E4B3000BF339 /* BaseDataProcess.h */,
+				76BEC8161A92E4B3000BF339 /* BaseDataProcess.m */,
+				76BEC8171A92E4B3000BF339 /* DataUtil.h */,
+				76BEC8181A92E4B3000BF339 /* DataUtil.m */,
+				76BEC8191A92E4B3000BF339 /* OrderByObject.h */,
+				76BEC81A1A92E4B3000BF339 /* OrderByObject.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		76DD27E01A918F8C007D865A = {
+			isa = PBXGroup;
+			children = (
+				76BEC8901A92ED5D000BF339 /* ProcessData_Prefix.pch */,
+				76BEC88E1A92E9D4000BF339 /* libsqlite3.0.dylib */,
+				76DD27EB1A918F8C007D865A /* ProcessData */,
+				76DD27F81A918F8C007D865A /* ProcessDataTests */,
+				76DD27EA1A918F8C007D865A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76DD27EA1A918F8C007D865A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76DD27E91A918F8C007D865A /* libProcessData.a */,
+				76DD27F41A918F8C007D865A /* ProcessDataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76DD27EB1A918F8C007D865A /* ProcessData */ = {
+			isa = PBXGroup;
+			children = (
+				76BEC8971A92FACF000BF339 /* DateUtil.h */,
+				76BEC8981A92FACF000BF339 /* DateUtil.m */,
+				76BEC8941A92FA14000BF339 /* LogUtil.h */,
+				76BEC8951A92FA14000BF339 /* LogUtil.m */,
+				76BEC8911A92F968000BF339 /* StringUtil.h */,
+				76BEC8921A92F968000BF339 /* StringUtil.m */,
+				76BEC7A41A92E4B3000BF339 /* Data */,
+				76BEC7E31A92E4B3000BF339 /* Core */,
+				76BEC7F11A92E4B3000BF339 /* Objects */,
+				76BEC8141A92E4B3000BF339 /* Util */,
+				76DD28031A91905E007D865A /* ProcessDataUtil.h */,
+				76DD28041A91905E007D865A /* ProcessDataUtil.m */,
+			);
+			path = ProcessData;
+			sourceTree = "<group>";
+		};
+		76DD27F81A918F8C007D865A /* ProcessDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				76DD27F91A918F8C007D865A /* Supporting Files */,
+			);
+			path = ProcessDataTests;
+			sourceTree = "<group>";
+		};
+		76DD27F91A918F8C007D865A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76DD27FA1A918F8C007D865A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76DD27E81A918F8C007D865A /* ProcessData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76DD27FD1A918F8C007D865A /* Build configuration list for PBXNativeTarget "ProcessData" */;
+			buildPhases = (
+				76DD27E51A918F8C007D865A /* Sources */,
+				76DD27E61A918F8C007D865A /* Frameworks */,
+				76DD27E71A918F8C007D865A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProcessData;
+			productName = ProcessData;
+			productReference = 76DD27E91A918F8C007D865A /* libProcessData.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		76DD27F31A918F8C007D865A /* ProcessDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76DD28001A918F8C007D865A /* Build configuration list for PBXNativeTarget "ProcessDataTests" */;
+			buildPhases = (
+				76DD27F01A918F8C007D865A /* Sources */,
+				76DD27F11A918F8C007D865A /* Frameworks */,
+				76DD27F21A918F8C007D865A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76DD27F71A918F8C007D865A /* PBXTargetDependency */,
+			);
+			name = ProcessDataTests;
+			productName = ProcessDataTests;
+			productReference = 76DD27F41A918F8C007D865A /* ProcessDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76DD27E11A918F8C007D865A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = com.viettel;
+				TargetAttributes = {
+					76DD27E81A918F8C007D865A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					76DD27F31A918F8C007D865A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 76DD27E41A918F8C007D865A /* Build configuration list for PBXProject "ProcessData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 76DD27E01A918F8C007D865A;
+			productRefGroup = 76DD27EA1A918F8C007D865A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76DD27E81A918F8C007D865A /* ProcessData */,
+				76DD27F31A918F8C007D865A /* ProcessDataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76DD27F21A918F8C007D865A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76DD27E51A918F8C007D865A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76BEC83A1A92E4B3000BF339 /* Items.m in Sources */,
+				76BEC8301A92E4B3000BF339 /* DTOProThanhToanDetailProcess.m in Sources */,
+				76BEC82E1A92E4B3000BF339 /* DTOPRODUCTTYPEProcess.m in Sources */,
+				76BEC8431A92E4B3000BF339 /* DTOProBaoLanhDetailObject.m in Sources */,
+				76BEC8241A92E4B3000BF339 /* DTOFLLOWUPProcess.m in Sources */,
+				76BEC8381A92E4B3000BF339 /* DTOWidgetTypeProcess.m in Sources */,
+				76BEC8471A92E4B3000BF339 /* DTOProductMasterObject.m in Sources */,
+				76BEC8341A92E4B3000BF339 /* DTOProWay4DetailProcess.m in Sources */,
+				76BEC8961A92FA14000BF339 /* LogUtil.m in Sources */,
+				76BEC8211A92E4B3000BF339 /* DTOComplainProcess.m in Sources */,
+				76BEC8261A92E4B3000BF339 /* DTONOTEProcess.m in Sources */,
+				76BEC82D1A92E4B3000BF339 /* DTOPRODUCTMASTERProcess.m in Sources */,
+				76BEC81B1A92E4B3000BF339 /* DataField.m in Sources */,
+				76BEC81E1A92E4B3000BF339 /* DTOACCOUNTProcess.m in Sources */,
+				76DD28051A91905E007D865A /* ProcessDataUtil.m in Sources */,
+				76BEC84F1A92E4B3000BF339 /* DTOWidgetObject.m in Sources */,
+				76BEC81C1A92E4B3000BF339 /* DTOACCCONTACTProcess.m in Sources */,
+				76BEC84B1A92E4B3000BF339 /* DTOProTindungDetailObject.m in Sources */,
+				76BEC8491A92E4B3000BF339 /* DTOProThanhToanDetailObject.m in Sources */,
+				76BEC83D1A92E4B3000BF339 /* UICGRoute.m in Sources */,
+				76BEC8461A92E4B3000BF339 /* DTOProductLeadTypeObject.m in Sources */,
+				76BEC8371A92E4B3000BF339 /* DTOWidgetProcess.m in Sources */,
+				76BEC8991A92FACF000BF339 /* DateUtil.m in Sources */,
+				76BEC8281A92E4B3000BF339 /* DTOOPPORTUNITYProcess.m in Sources */,
+				76BEC8231A92E4B3000BF339 /* DTOEMPLOYEEACCOUNTProcess.m in Sources */,
+				76BEC82A1A92E4B3000BF339 /* DTOProBaoLanhDetailProcess.m in Sources */,
+				76BEC8521A92E4B3000BF339 /* DataUtil.m in Sources */,
+				76BEC8501A92E4B3000BF339 /* DTOWidgetTypeObject.m in Sources */,
+				76BEC84E1A92E4B3000BF339 /* DTOTaskObject.m in Sources */,
+				76BEC82C1A92E4B3000BF339 /* DTOPRODUCTDETAILProcess.m in Sources */,
+				76BEC83C1A92E4B3000BF339 /* UICGPolyline.m in Sources */,
+				76BEC8451A92E4B3000BF339 /* DTOProductDetailObject.m in Sources */,
+				76BEC8311A92E4B3000BF339 /* DTOProTietKiemDetailProcess.m in Sources */,
+				76BEC8331A92E4B3000BF339 /* DTOProTTQTDetailProcess.m in Sources */,
+				76BEC83F1A92E4B3000BF339 /* NSDictionary+QS.m in Sources */,
+				76BEC8271A92E4B3000BF339 /* DTOOPPORTUNITYCONTACTProcess.m in Sources */,
+				76BEC84D1A92E4B3000BF339 /* DTOProWay4DetailObject.m in Sources */,
+				76BEC8421A92E4B3000BF339 /* DTOComplainObject.m in Sources */,
+				76BEC8391A92E4B3000BF339 /* TableTestProcess.m in Sources */,
+				76BEC81F1A92E4B3000BF339 /* DTOATTACHMENTProcess.m in Sources */,
+				76BEC82F1A92E4B3000BF339 /* DTOProEMBDetailProcess.m in Sources */,
+				76BEC8481A92E4B3000BF339 /* DTOProEMBDetailObject.m in Sources */,
+				76BEC8931A92F968000BF339 /* StringUtil.m in Sources */,
+				76BEC8401A92E4B3000BF339 /* DTOAccountProcessObject.m in Sources */,
+				76BEC8251A92E4B3000BF339 /* DTOINVENTORYProcess.m in Sources */,
+				76BEC8441A92E4B3000BF339 /* DTOProBPDetailObject.m in Sources */,
+				76BEC84A1A92E4B3000BF339 /* DTOProTietKiemDetailObject.m in Sources */,
+				76BEC8531A92E4B3000BF339 /* OrderByObject.m in Sources */,
+				76BEC8221A92E4B3000BF339 /* DTOCONTACTProcess.m in Sources */,
+				76BEC84C1A92E4B3000BF339 /* DTOProTTQTDetailObject.m in Sources */,
+				76BEC8291A92E4B3000BF339 /* DTOOPPORTUNITYPRODUCTProcess.m in Sources */,
+				76BEC83E1A92E4B3000BF339 /* UICGStep.m in Sources */,
+				76BEC81D1A92E4B3000BF339 /* DTOACCOUNTLEADProcess.m in Sources */,
+				76BEC8511A92E4B3000BF339 /* BaseDataProcess.m in Sources */,
+				76BEC8361A92E4B3000BF339 /* DTOTASKProcess.m in Sources */,
+				76BEC82B1A92E4B3000BF339 /* DTOProBPDetailProcess.m in Sources */,
+				76BEC8201A92E4B3000BF339 /* DTOCOMPETITORProcess.m in Sources */,
+				76BEC8411A92E4B3000BF339 /* DTOAcountLeadProcessObject.m in Sources */,
+				76BEC8351A92E4B3000BF339 /* DTOSYSCATProcess.m in Sources */,
+				76BEC8321A92E4B3000BF339 /* DTOProTindungDetailProcess.m in Sources */,
+				76BEC83B1A92E4B3000BF339 /* StringRemoval.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DD27F01A918F8C007D865A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76DD27F71A918F8C007D865A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76DD27E81A918F8C007D865A /* ProcessData */;
+			targetProxy = 76DD27F61A918F8C007D865A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		76DD27FB1A918F8C007D865A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ProcessData_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76DD27FC1A918F8C007D865A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ProcessData_Prefix.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76DD27FE1A918F8C007D865A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		76DD27FF1A918F8C007D865A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		76DD28011A918F8C007D865A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProcessDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76DD28021A918F8C007D865A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProcessDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76DD27E41A918F8C007D865A /* Build configuration list for PBXProject "ProcessData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DD27FB1A918F8C007D865A /* Debug */,
+				76DD27FC1A918F8C007D865A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76DD27FD1A918F8C007D865A /* Build configuration list for PBXNativeTarget "ProcessData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DD27FE1A918F8C007D865A /* Debug */,
+				76DD27FF1A918F8C007D865A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76DD28001A918F8C007D865A /* Build configuration list for PBXNativeTarget "ProcessDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DD28011A918F8C007D865A /* Debug */,
+				76DD28021A918F8C007D865A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76DD27E11A918F8C007D865A /* Project object */;
+}
